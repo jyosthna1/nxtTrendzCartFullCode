@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+.order-total {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
+}
+.order-total-text {
+  color: #616e7c;
+  font-size: 16px;
+}
+.items-in-cart {
+  font-family: 'Roboto';
+  color: #616e7c;
+  font-size: 13px;
+  margin: 0px;
+}
+.checkout-button {
+  border-width: 0px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 8px 50px 8px 50px;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .display-small {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .display-large {
+    display: none;
+  }
+}
